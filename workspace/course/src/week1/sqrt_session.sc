@@ -19,5 +19,5 @@ object sqrt_session {
   }                                               //> sqrt: (x: Double)Double
 	sqrt(2)                                   //> res0: Double = 1.4142156862745097
 	sqrt(4)                                   //> res1: Double = 2.000609756097561
-	sqrt(16)                                  //> res2: Double = 4.000000636692939
+	sqrt(16)                                  
 }

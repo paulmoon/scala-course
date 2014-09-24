@@ -22,7 +22,7 @@ object Main {
   def balance(chars: List[Char]): Boolean = {
     def get_balance(chars: List[Char], numOpens: Int): Boolean =
       if (chars.isEmpty) {
-        true 
+        numOpens == 0 
       } else {
       	val n = 
       	  if (chars.head == '(') numOpens + 1
